@@ -1,3 +1,0 @@
--Isrc
--Wall
--Wextra
