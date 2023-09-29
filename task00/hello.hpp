@@ -5,6 +5,6 @@
 #include <string>
 
 void hello();
-void hello(const std::string name);
+void hello(const std::string &name);
 
 #endif /* HELLO_HPP_*/
