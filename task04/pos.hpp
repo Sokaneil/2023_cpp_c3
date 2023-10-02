@@ -5,8 +5,7 @@
 #include <string>
 
 template <typename T>
-struct pos_2d
-{
+struct pos_2d {
     T x;
     T y;
 };
@@ -19,8 +18,7 @@ std::ostream &operator<<(std::ostream &os, const pos_2d<T> &rhs)
 }
 
 template <typename T>
-struct pos_3d
-{
+struct pos_3d {
     T x;
     T y;
     T z;
